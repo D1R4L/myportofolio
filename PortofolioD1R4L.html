@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Diral Ryan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(90deg, #d946ef, #60a5fa);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 90%;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      animation: slideUp 1s ease-in-out;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 250px;
+      border-radius: 16%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+    .project {
+      width: 500px;
+      height: 350px;
+      border-radius: 5%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+
+    .keahlian {
+      max-width: 900px;
+      width: 90%;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      font-family: 'Times New Roman', Times, serif;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    .about {
+      font-family: 'Times New Roman', Times, serif;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    .web, .game, .D, .mobile, .video {
+      line-height: 1;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    .web1, .game1, .D1, .mobile1, .video1 {
+      text-align: left;
+    }
+
+    .tool {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      color: white;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+    .tool-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .toolz {
+      flex: 1 1 45%; /* 2 kolom */
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+    .tool-box:hover {
+      transform: translateY(-5px);
+    }
+    @media screen and (max-width: 768px) {
+      .tool-box {
+        flex: 1 1 100%;
+      }
+    }
+  
+
+
+    .show {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+
+    .roles {
+      font-weight: bold;
+      margin-bottom: 20px;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .contact {
+      margin-top: 30px;
+      font-size: 0.95rem;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="profil.jpg" alt="Foto Diral Ryan" class="profile-pic">
+
+    <h1>Diral Ryan</h1>
+    <div class="roles">
+      Web Developer | Designer | Freelancer | 3D Modelling | Pemrograman
+    </div>
+
+    <p class="about">
+      Saya adalah seorang pelajar dari SMKN 1 Nganjuk jurusan Pengembangan Perangkat Lunak dan Gim (PPLG) yang memiliki minat besar di bidang teknologi,
+      khususnya dalam pengembangan aplikasi, website, dan game. Saya terbiasa bekerja secara mandiri maupun dalam tim, dan selalu tertantang untuk mempelajari hal-hal baru di dunia digital.
+      Selama masa studi, saya telah mempelajari dan mengembangkan berbagai proyek seperti aplikasi Android sederhana,
+      website portofolio, serta game 2D menggunakan Unity. Selain itu, saya juga memiliki kemampuan dalam 3D modeling, editing video dan foto, serta desain UI/UX.
+      Saya percaya bahwa teknologi adalah alat untuk menciptakan solusi nyata dan bermanfaat bagi banyak orang. Karena itu, 
+      saya selalu berusaha mengasah skill saya agar dapat menjadi developer dan kreator digital yang profesional dan inovatif.
+    </p>
+
+    <div class="keahlian">
+      <h3>KEAHLIAN UTAMA</h3>
+        <div class="web"> <br>> Web Development (HTML, CSS, JavaScript, PHP)
+          <div class="web1">
+            Web development adalah proses pembuatan dan pemeliharaan situs web (website) atau aplikasi web yang dapat diakses melalui internet. 
+            Web development mencakup segala hal mulai dari membuat halaman sederhana dengan teks hingga membangun aplikasi web kompleks seperti media sosial, toko online, atau sistem manajemen data.
+          </div>
+        </div>
+
+        <div class="game"> <br>> Game Development (Unity, C#)
+          <div class="game1">
+            Game development adalah proses pembuatan dan pengembangan permainan (game) yang bisa dimainkan di berbagai platform seperti komputer, konsol, smartphone, atau web. 
+            Proses ini mencakup mulai dari perencanaan ide, desain karakter dan dunia game, pemrograman, pengujian, hingga rilis ke publik.
+          </div>
+        </div>
+
+        <div class="D"> <br>> 3D Modeling (Blender)
+          <div class="D1">
+            3D modeling adalah proses membuat objek tiga dimensi (3D) menggunakan software komputer. Hasil dari 3D modeling bisa digunakan dalam berbagai bidang, seperti:
+            <br>• Game development (karakter, environment, senjata)
+            <br>• Animasi dan film
+            <br>• Arsitektur (desain bangunan, interior)
+            <br>• Desain produk
+            <br>• Simulasi dan virtual reality (VR)
+          </div>
+        </div>
+
+        <div class="mobile"> <br>> Mobile App Builder (Android Studio)
+          <div class="mobile1">
+            Mobile app builder adalah alat atau platform yang digunakan untuk membuat aplikasi mobile (Android atau iOS) dengan cara yang lebih mudah dan cepat, 
+            sering kali tanpa perlu coding atau hanya sedikit kode.
+            Alat ini cocok untuk pemula, bisnis kecil, atau developer yang ingin membuat prototipe aplikasi dengan cepat.
+          </div>
+        </div>
+
+        <div class="video"> <br>> Video Editing & Graphic Design (CapCut, Canva, Photoshop, CorelDRAW)
+          <div class="video1">
+            Video Editing dan Graphic Design adalah dua bidang kreatif yang sering digunakan di industri media, hiburan, periklanan, 
+            dan digital marketing. Meskipun berbeda, keduanya saling mendukung dalam pembuatan konten visual.
+          </div>
+        </div>
+    </div>
+
+    <div class="tool">
+      <h2 class="tools">Tools yang Dikuasai</h2>
+      <div class="tool-container">
+        <div class ="toolz"><p>• Visual Studio Code
+            Visual Studio Code (VS Code) adalah text editor atau kode editor gratis dan ringan yang dibuat oleh Microsoft, 
+            digunakan oleh programmer untuk menulis dan mengedit kode dalam berbagai bahasa pemrograman seperti HTML, CSS, JavaScript, Python, C++, dan banyak lagi.
+            </p>
+          </div>
+
+        <div class="toolz"><p>• Unity Engine
+            Unity Engine adalah game engine (mesin pembuat game) yang digunakan untuk membuat game dan aplikasi interaktif dalam bentuk 2D, 3D, Augmented Reality (AR), dan Virtual Reality (VR). 
+            Unity sangat populer di kalangan developer game karena mudah digunakan, fleksibel, dan bisa digunakan untuk membuat game di berbagai platform seperti Android, iOS, PC, Web, bahkan konsol seperti PlayStation dan Xbox.
+            </p>
+          </div>
+
+        <div class ="toolz"><p>• Blender
+            Blender adalah software gratis dan open-source yang digunakan untuk membuat dan mengedit grafik 3D. 
+            Blender sangat populer di kalangan seniman 3D, animator, game developer, dan pembuat film animasi karena fiturnya lengkap, kuat, dan tidak berbayar.
+            </p>
+          </div>
+
+        <div class="toolz"><p>• Figma
+            Figma adalah alat desain antarmuka (UI) dan prototyping berbasis web yang digunakan untuk membuat desain aplikasi, website, dan sistem antarmuka lainnya. 
+            Figma sangat populer karena bisa digunakan langsung di browser, mendukung kolaborasi real-time seperti Google Docs, dan tidak perlu diinstal (walau ada versi desktop juga).
+            </p>
+          </div>
+      </div>
+     </div>
+
+     <h2>My Projct</h2>
+     <h4>3D Modeling (Blender)</h4>
+     <img src="3D.png" alt="Foto Diral Ryan" class="project">
+
+     <h4>Game Development (Unity)</h4>
+     <img src="unity.png" alt="Foto Diral Ryan" class="project">
+
+     <h4>Graphic Design (CorelDRAWP)</h4>
+     <img src="corel.png" alt="Foto Diral Ryan" class="project">
+
+     <h4>Graphic Design (Photoshop)</h4>
+     <img src="ae.png" alt="Foto Diral Ryan" class="project">
+
+     <h4>Visual Studio</h4>
+     <img src="vs.png" alt="Foto Diral Ryan" class="project">
+
+
+    <div class="contact">
+        <p>Link Project Saya</p>
+        <a href="https://lnk.ink/MyPortofolio" target="_blank">Google Drive</a>
+    <h2>Contact</h2>
+      <p>📧 Email: diral.15@smk.belajar.id</p>
+      <p>📞 Telepon: 085748860379</p>
+      <p>📍 Alamat: Jl. Sultan Agung, Nganjuk, 9999</p>
+    </div>
+  </div>
+
+  <script>
+    // Animasi scroll masuk dan keluar
+    const animatedElements = document.querySelectorAll('.web, .game, .D, .mobile, .video, h1, .about, .toolz, .tool, .keahlian, .roles, .contact');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    animatedElements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
